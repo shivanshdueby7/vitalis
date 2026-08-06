@@ -4,7 +4,7 @@
 
 ### Bugs Found & Fixed (14 total)
 
-| # | Bug | File | Fix |
+| # | Bugs | File | Fix |
 |---|-----|------|-----|
 | 1 | Duplicate app usage rows every 30s poll | TrackingForegroundService | Replaced `insertAll` with `upsert` (INSERT OR REPLACE) on `(package_name, date)` |
 | 2 | Dead code: `eventList` created but never used | TrackingForegroundService | Removed unused variable |
