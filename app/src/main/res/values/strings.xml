@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vitalis</string>
+    <string name="accessibility_service_description">Vitalis uses Accessibility Service to track foreground app changes in real-time for accurate screen time monitoring.</string>
+</resources>
